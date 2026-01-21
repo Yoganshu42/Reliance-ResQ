@@ -11,11 +11,12 @@ def run_dashboard(selection=None):
     # st.info("This dashboard updates automatically when underlying data changes.")
 
     df_sales = pd.read_excel(
-        r'C:\Users\yogan\OneDrive\Desktop\reliance\Reliance ResQ Sales data & Claim Data.xlsx',
-        sheet_name=0
+    "Reliance ResQ Sales data & Claim Data.xlsx",
+    sheet_name=0
     )
+
     df_claims = pd.read_excel(
-        r'C:\Users\yogan\OneDrive\Desktop\reliance\Reliance ResQ Sales data & Claim Data.xlsx',
+        "Reliance ResQ Sales data & Claim Data.xlsx",
         sheet_name=1
     )
 

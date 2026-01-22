@@ -39,5 +39,5 @@ with tab_period:
 
 # ---------------- PREDICTION TAB ---------------- #
 with tab_prediction:
-    # st.subheader("📈 Sales & Claims Prediction")
+    st.subheader("Predictions for only plans in ADLD and SP")
     analysis.run_dashboard(selection="prediction")
